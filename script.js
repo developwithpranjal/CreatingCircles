@@ -27,8 +27,8 @@ function CreateCircleOnScreen(obj) {
   const span = document.createElement("span");
   span.classList.add("circle");
   span.style.backgroundColor = previousObj.backGr;
-  span.style.top = previousObj.y - 28 + "px";
-  span.style.left = previousObj.x - 28 + "px";
+  span.style.top = previousObj.y - 20 + "px";
+  span.style.left = previousObj.x - 20 + "px";
   span.id = previousObj.id;
   wrapper.append(span);
   obj.element = span;

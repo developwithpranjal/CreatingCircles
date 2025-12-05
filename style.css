@@ -8,6 +8,7 @@
   width: 40px;
   border-radius: 50%;
   position: absolute;
+  animation: pop 1s;;
 }
 #buttons{
     width: 250px;
@@ -19,4 +20,13 @@ button{
 #wrapper{
   height: 100vh;
   position: relative;
+}
+@keyframes pop {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);;
+    }
+    
 }
